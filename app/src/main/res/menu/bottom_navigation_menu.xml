@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/alex"
+        android:enabled="true"
+        android:icon="@drawable/ic_person_black"
+        android:title="Profile"
+        />
+    <item
+        android:id="@+id/contact"
+        android:enabled="true"
+        android:icon="@drawable/ic_conectar"
+        android:title="Contact"/>
+
+    <item
+        android:id="@+id/repos"
+        android:enabled="true"
+        android:icon="@drawable/ic_github"
+        android:title="My Work"/>
+
+</menu>
