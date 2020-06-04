@@ -6,12 +6,13 @@
     android:layout_marginLeft="5dp"
     android:layout_marginRight="5dp"
     android:layout_marginTop="5dp"
+
     card_view:cardCornerRadius="5dp">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/white"
+        android:background="@color/colorPrimaryDark"
         android:baselineAligned="false"
         android:orientation="horizontal"
         android:padding="5dp">
@@ -24,13 +25,16 @@
 
             <TextView
                 android:id="@+id/txvName"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
+                android:textColor="#6495ED"
+
                 android:text="Title"
-                android:textColor="#616161"
+
                 android:textSize="18sp"
-                android:textStyle="bold"/>
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -40,6 +44,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="#FFA500"
                     android:text="Language: "
                     android:textSize="15sp"
                     android:textStyle="bold"/>
@@ -48,6 +53,7 @@
                     android:id="@+id/txvLanguage"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="#9370D8"
                     android:text="Java"
                     android:textSize="15sp"/>
 
@@ -65,6 +71,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="#6495ED"
                     android:text="Stars: "
                     android:textSize="15sp"
                     android:textStyle="bold"/>
@@ -74,6 +81,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2000"
+                    android:textColor="#008000"
                     android:textSize="15sp"/>
 
                 <TextView
@@ -81,6 +89,7 @@
                     android:layout_height="wrap_content"
                     android:text=", Watchers: "
                     android:textSize="15sp"
+                    android:textColor="#6495ED"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -88,6 +97,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2000"
+                    android:textColor="#008000"
                     android:textSize="15sp"/>
 
                 <TextView
@@ -95,6 +105,7 @@
                     android:layout_height="wrap_content"
                     android:text=", Forks: "
                     android:textSize="15sp"
+                    android:textColor="#6495ED"
                     android:textStyle="bold"/>
 
                 <TextView
@@ -102,6 +113,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="2000"
+                    android:textColor="#008000"
                     android:textSize="15sp"/>
 
             </LinearLayout>
