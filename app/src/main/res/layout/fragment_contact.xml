@@ -34,6 +34,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <ImageView
+                    android:id="@+id/facebookProfile"
                     android:src="@drawable/facebooklogo"
                     android:layout_width="80dp"
                     android:layout_height="80dp"/>
@@ -59,6 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <ImageView
+                    android:id="@+id/twitterProfile"
                     android:src="@drawable/twitterlogo"
                     android:layout_width="80dp"
                     android:layout_height="80dp"/>
@@ -84,6 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <ImageView
+                    android:id="@+id/linkedInProfile"
                     android:src="@drawable/linkedinlogo"
                     android:layout_width="80dp"
                     android:layout_height="80dp"/>
@@ -109,6 +112,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <ImageView
+                    android:id="@+id/sendEmail"
                     android:src="@drawable/emailogo"
                     android:layout_width="80dp"
                     android:layout_height="80dp"/>
